@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ BEACH TENNIS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="corpo">
+
+    <section class="quiz-section">
+        <h2>Quiz Beach tennis </h2>
+        <img src="imagem/images-removebg-preview.png" alt="Logo da Drop shot">
+        <nav>
+           
+                <a href="index.html">Início</a>
+               <a href="produtos.html" >Loja</a>
+               <a href="contatos.html">Contato</a>
+               <a href="quiz.html">quiz</a>
+                
+           
+        </nav>
+        <form id="quiz-form">
+            <!-- Pergunta 1 -->
+            <section class="question">
+                <h3>Qual é o número de jogadores em uma partida de beach tennis?</h3>
+                <label><input type="radio" name="q1" value="A" onclick="disableOptions('q1'), playSound()"> A) 2</label><br>
+                <label><input type="radio" name="q1" value="B" onclick="disableOptions('q1'), playSound()"> B) 4</label><br>
+                <label><input type="radio" name="q1" value="C" onclick="disableOptions('q1'), playSound()"> C) 6</label><br>
+                <label><input type="radio" name="q1" value="D" onclick="disableOptions('q1'), playSound()"> D) 8</label><br>
+            </section>
+        
+            <!-- Pergunta 2 -->
+            <section class="question">
+                <h3>Qual é a altura oficial da rede no beach tennis?</h3>
+                <label><input type="radio" name="q2" value="A" onclick="disableOptions('q2'), playSound()"> A) 1,50 m</label><br>
+                <label><input type="radio" name="q2" value="B" onclick="disableOptions('q2'), playSound()"> B) 1,70 m</label><br>
+                <label><input type="radio" name="q2" value="C" onclick="disableOptions('q2'), playSound()"> C) 1,90 m</label><br>
+                <label><input type="radio" name="q2" value="D" onclick="disableOptions('q2'), playSound()"> D) 2,00 m</label><br>
+            </section>
+
+            <!-- Pergunta 3 -->
+            <section class="question">
+                <h3>Qual é o tamanho padrão da quadra de beach tennis?</h3>
+                <label><input type="radio" name="q3" value="A" onclick="disableOptions('q3'), playSound()"> A) 8m x 16m</label><br>
+                <label><input type="radio" name="q3" value="B" onclick="disableOptions('q3'), playSound()"> B) 10m x 20m</label><br>
+                <label><input type="radio" name="q3" value="C" onclick="disableOptions('q3'), playSound()"> C) 5m x 10m</label><br>
+                <label><input type="radio" name="q3" value="D" onclick="disableOptions('q3'), playSound()"> D) 6m x 12m</label><br>
+            </section>
+
+            <!-- Pergunta 4 -->
+            <section class="question">
+                <h3>Qual é o país considerado o berço do beach tennis?</h3>
+                <label><input type="radio" name="q4" value="A" onclick="disableOptions('q4'), playSound()"> A) Brasil</label><br>
+                <label><input type="radio" name="q4" value="B" onclick="disableOptions('q4'), playSound()"> B) Espanha</label><br>
+                <label><input type="radio" name="q4" value="C" onclick="disableOptions('q4'), playSound()"> C) Itália</label><br>
+                <label><input type="radio" name="q4" value="D" onclick="disableOptions('q4'), playSound()"> D) Estados Unidos</label><br>
+            </section>
+
+            <!-- Pergunta 5 -->
+            <section class="question">
+                <h3>O que caracteriza a raquete de beach tennis?</h3>
+                <label><input type="radio" name="q5" value="A" onclick="disableOptions('q5'), playSound()"> A)  É feita de madeira</label><br>
+                <label><input type="radio" name="q5" value="B" onclick="disableOptions('q5'), playSound()"> B) Tem cordas como uma raquete de tênis</label><br>
+                <label><input type="radio" name="q5" value="C" onclick="disableOptions('q5'), playSound()"> C) É sólida e sem cordas</label><br>
+                <label><input type="radio" name="q5" value="D" onclick="disableOptions('q5'), playSound()"> D) É muito leve e feita de alumínio</label><br>
+            </section>
+
+            <!-- Pergunta 6 -->
+            <section class="question">
+                <h3>Qual é o sistema de pontuação utilizado no beach tennis?</h3>
+                <label><input type="radio" name="q6" value="A" onclick="disableOptions('q6'), playSound()"> A) 15-30-40</label><br>
+                <label><input type="radio" name="q6" value="B" onclick="disableOptions('q6'), playSound()"> B) Vencedor de 7 pontos</label><br>
+                <label><input type="radio" name="q6" value="C" onclick="disableOptions('q6'), playSound()"> C) Vencedor de 11 pontos</label><br>
+                <label><input type="radio" name="q6" value="D" onclick="disableOptions('q6'), playSound()"> D) 21 pontos</label><br>
+            </section>
+
+            <!-- Pergunta 7 -->
+            <section class="question">
+                <h3>Qual é o principal material utilizado para fazer a bola de beach tennis?</h3>
+                <label><input type="radio" name="q7" value="A" onclick="disableOptions('q7'), playSound()"> A) Borracha</label><br>
+                <label><input type="radio" name="q7" value="B" onclick="disableOptions('q7'), playSound()"> B) Tênis de feltro</label><br>
+                <label><input type="radio" name="q7" value="C" onclick="disableOptions('q7'), playSound()"> C) Plástico</label><br>
+                <label><input type="radio" name="q7" value="D" onclick="disableOptions('q7'), playSound()"> D) Couro</label><br>
+            </section>
+
+            <!-- Pergunta 8 -->
+            <section class="question">
+                <h3>Como são os saques no beach tennis?</h3>
+                <label><input type="radio" name="q8" value="A" onclick="disableOptions('q8'), playSound()"> A) Sempre com uma mão</label><br>
+                <label><input type="radio" name="q8" value="B" onclick="disableOptions('q8'), playSound()"> B) Apenas de cima</label><br>
+                <label><input type="radio" name="q8" value="C" onclick="disableOptions('q8'), playSound()"> C) Pode ser feito de qualquer maneira, desde que a bola passe pela rede</label><br>
+                <label><input type="radio" name="q8" value="D" onclick="disableOptions('q8'), playSound()"> D) Deve ser feito de forma semelhante ao tênis</label><br>
+            </section>
+
+            <!-- Pergunta 9 -->
+            <section class="question">
+                <h3>Qual é o tipo de superfície onde o beach tennis é jogado?</h3>
+                <label><input type="radio" name="q9" value="A" onclick="disableOptions('q9'), playSound()"> A) Grama</label><br>
+                <label><input type="radio" name="q9" value="B" onclick="disableOptions('q9'), playSound()"> B) Areia</label><br>
+                <label><input type="radio" name="q9" value="C" onclick="disableOptions('q9'), playSound()"> C) Piso de madeira</label><br>
+                <label><input type="radio" name="q9" value="D" onclick="disableOptions('q9'), playSound()"> D) Cimento</label><br>
+            </section>
+
+            <!-- Pergunta 10 -->
+            <section class="question">
+                <h3>Em uma competição de beach tennis, quantos sets normalmente são jogados?</h3>
+                <label><input type="radio" name="q10" value="A" onclick="disableOptions('q10'), playSound()"> A) 1</label><br>
+                <label><input type="radio" name="q10" value="B" onclick="disableOptions('q10'), playSound()"> B) 2</label><br>
+                <label><input type="radio" name="q10" value="C" onclick="disableOptions('q10'), playSound()"> C) 3</label><br>
+                <label><input type="radio" name="q10" value="D" onclick="disableOptions('q10'), playSound()"> D) Depende da competição</label><br>
+            </section>
+
+            <!-- Botões -->
+            <button type="button" onclick="submitQuiz()">Enviar Resposta</button>
+            <button type="button" id="retry-button" onclick="resetQuiz()" disabled>Responder Novamente</button>
+        </form>
+        
+        <!-- Áudio -->
+        <audio id="venceusom" src="som/venceu.mp3" preload="auto"></audio>
+        <audio id="selecionasom" src="som/seleciona.mp3" preload="auto"></audio>
+        <audio id="errosom" src="som/perdeu.mp3" preload="auto"></audio>
+
+       
+        
+        <!-- Resultado -->
+        <section id="result"></section>
+    </section>
+
+    <script src="script.quiz.js"></script>
+</body>
+</html>
+

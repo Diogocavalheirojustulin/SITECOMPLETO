@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beach Tennis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Beach tennis</h1>
+        <img src="imagem/images-removebg-preview.png" alt="Logo da Drop shot">
+        <nav>
+           
+                <a href="index.html">Início</a>
+               <a href="produtos.html" >Loja</a>
+               <a href="contatos.html">Contato</a>
+               <a href="quiz.html">quiz</a>
+                
+           
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="informacoes-contato">
+            <h2>Informações de Contato</h2>
+            <p><strong>Endereço:</strong> Rua Alameida Souza 122 - Bauru, SP</p>
+            <p><strong>Telefone:</strong> (14) 997798298</p>
+            <p><strong>Email:</strong> diogojustulin@gmail.com</p>
+        </section>
+
+        <section id="formulario-contato">
+            <h2>Envie-nos uma Mensagem</h2>
+            <form action="https://formsubmit.co/seuemail@dominio.com" method="POST">
+                <!-- Campo oculto para redirecionar após envio -->
+                <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+                <!-- Campo oculto para impedir spam -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <input type="mensagem" id="mensagem" name="mensagem" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p></p>
+        <p><a href="https://www.instagram.com/dropshotbr/">Instagram</a> </a></p>
+    </footer>
+  
+</body>
+</html>
